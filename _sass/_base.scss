@@ -85,6 +85,10 @@ hr{
  * Figures
  */
 figure > img {
+
+    max-width: 450px;
+    // margin: auto;
+    //text-align: center;
     display: block;
 }
 
