@@ -25,7 +25,7 @@ A note-taking app that let's you simply mix text, code, Markdown and LaTeX withi
 ### [Hyper: JS/HTML/CSS Terminal built using Electron](https://hyper.is)
 A fully customizable terminal emulator built on top of open web technologies that supports extensions through node.js
 
-<img class="post_img" src="/img/hyperyellow.gif">
+<img class="post_img" src="{{ site.baseurl }}/img/hyperyellow.gif">
 
 #### Favorite Plugins:
 * hyper-seti-monokai
@@ -68,7 +68,7 @@ Fully customizable (built with JavaScript) open-source text-editor from the deve
 ### $ [Unclutter](https://unclutterapp.com/)
 An app that creates a dropdown menu for storing notes, files, and clipboard history.
 
-<img class="post_img" src="/img/unclutter.gif">
+<img class="post_img" src="{{ site.baseurl }}/img/unclutter.gif">
 
 #### Favorite Features:
 * location aware clipboard history
@@ -104,7 +104,7 @@ Super user's app launcher.
 ### [Numi](https://numi.io/)
 A beautiful semanic calculator.
 
-<img class="post_img" src="/img/numi.gif">
+<img class="post_img" src="{{ site.baseurl }}/img/numi.gif">
 
 #### Favorite Features:
 * currency conversion
