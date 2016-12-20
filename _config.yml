@@ -17,5 +17,8 @@ markdown: kramdown
 paginate: 15
 paginate_path: "/blog/page:num/"
 
+feed:
+  path: atom.xml
+
 gems:
   - jekyll-feed
