@@ -102,9 +102,9 @@ Super user's app launcher.
 <br>
 
 ### [Numi](https://numi.io/)
-A beautiful semanic calculator.
+A beautiful semantic calculator.
 
-<img class="post_img" src="{{ site.baseurl }}/img/numi.gif">
+![](/img/numi.gif){:class="img-responsive"}
 
 #### Favorite Features:
 * currency conversion
