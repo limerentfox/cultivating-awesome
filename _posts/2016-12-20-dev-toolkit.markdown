@@ -42,7 +42,7 @@ Fully customizable (built with JavaScript) open-source text-editor from the deve
 * ui theme: seti-ui
 * syntax theme: monokai-seti
 
-<br>
+
 
 #### Favorite Plugins:
 * atom-beautify
