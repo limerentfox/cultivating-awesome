@@ -30,6 +30,13 @@ $blue: #2698BA;
 $green: #11D68B;
 $lime_green: #B7D12A;
 $purple: #B509AC;
+$pink: #fc1da7;
+$hyper_orange: #fba506;
+$pink_dark: darken($pink, 18%);
+$hyper_orange_dark: darken($hyper_orange, 13%);
+$gradient: linear-gradient(90deg, $pink, $hyper_orange);
+$gradient_dark: linear-gradient(270deg, $pink_dark, $hyper_orange_dark);
+
 
 
 $grey-color-dark: #333;   /* footer */
@@ -86,9 +93,9 @@ hr{
  */
 figure > img {
 
-    max-width: 450px;
-    // margin: auto;
-    //text-align: center;
+    //max-width: 450px;
+    margin: auto;
+    text-align: center;
     display: block;
 }
 
@@ -119,9 +126,44 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+
     font-weight: 100;
     margin-bottom: 5px;
 }
+
+/**
+ * Site title
+ */
+  h1, h4 {
+
+    background: $gradient;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+
+
+  h3 a {
+    line-height: 1em;
+    background: $gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  a:hover {
+    background: $gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+ .post-title {
+  background: $gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
 
 
 /**
@@ -136,8 +178,9 @@ a {
     }
     */
     &:hover {
-        color: $theme-color;
-        text-decoration: none;
+      background: $gradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 }
 
@@ -146,7 +189,10 @@ article a {
     font-weight: 100;
 
     &:hover {
-        text-decoration: none;
+        background: $gradient_dark;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
     }
 }
 
