@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Materializing Your CSS SuperPowers
-date:   2016-12-20 06:35:12
+date:   2017-1-12 06:35:12
 description:
 ---
 When developing a new Rails application, it is often hard to separate back-end functionality with front-end styling. In essence, what our app will look like is completely separate from what our app will do functionally.
@@ -103,8 +103,6 @@ To import all of the base styling (fonts, layouts, and mixins) go into your app 
 
  By selecting one of the pre-made html nav bar snippets I can create a partial (```_nav.html.erb```) and save it in a file called shared in my views directory. This will allow me to import my nav bar into the ```application.html.erb``` file in the layouts directory and give all the pages of my application access to the nav bar styling.
 
- #code example
-
  Back to the ```_nav.html.erb``` partial, this is what the code looks like:
 
  <figure class="app_pic_container">
@@ -119,7 +117,7 @@ To import all of the base styling (fonts, layouts, and mixins) go into your app 
    <img class="app_pic center" src="{{ site.baseurl }}/img/login-nav.png">
  </figure>
 
- But what if I don't like the colors?
+ #But what if I don't like the colors?
 
  If you are not happy with the out of the box colors of materialize you can change them by adding this code to your ```application.scss``` file:
 
@@ -138,7 +136,7 @@ I recommend downloading the Sass source files for MaterializeCSS and looking at 
 </figure>
 
 
-Conclusion:
+#Conclusion:
 
 MaterializeCSS allows you to add beautiful base styling to your projects so you can focus on finishing features and functionality instead of nitpicking how ugly everything looks.
 
